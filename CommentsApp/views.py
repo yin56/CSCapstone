@@ -31,3 +31,4 @@ def addComment(request):
         else:                            
             form = forms.CommentForm()
     return render(request, 'comments.html')
+
